@@ -59,7 +59,7 @@ document.getElementById("p2").textContent = `You are ${age} years old`;
 document.getElementById("p3").textContent = `Enrolled: ${student}`;
 */
 
-let students = 30;
+// let students = 30;
 
 // students = students + 1;
 // students = students - 1;
@@ -81,6 +81,20 @@ let students = 30;
 // students--;
 
 
+// console.log(students);
 
-console.log(students);
+// User Input
 
+// Window prompt
+
+let username1;
+username = window.prompt("What's your username?");
+console.log(username);
+
+
+// Textbox
+let username2;
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("myH1").textContent = `Hello ${username}`
+}
