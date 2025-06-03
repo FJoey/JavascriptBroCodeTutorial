@@ -1,5 +1,4 @@
 /* -----------------------------------MATH OBJECT
-*/
 // Math: built-in object that provides a collection of properties and methods for doing math
 //console.log(Math.PI);
 //console.log(Math.E);
@@ -23,7 +22,7 @@ let z;
 //z = Math.min(x, y);   //Find min
 
 console.log(z);
-
+*/
 /* -----------------------------------COUNTER PROGRAM
 
 const decreaseBtn = document.getElementById("decreaseBtn");
