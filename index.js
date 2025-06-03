@@ -1,7 +1,28 @@
+/* -----------------------------------COUNTER PROGRAM
+*/
+const decreaseBtn = document.getElementById("decreaseBtn");
+const resetBtn = document.getElementById("resetBtn");
+const increaseBtn = document.getElementById("increaseBtn");
+const countLabel = document.getElementById("countLabel");
+let count = 0;
+
+increaseBtn.onclick = function(){
+    count++;
+    countLabel.textContent = count;
+}
+
+decreaseBtn.onclick = function(){
+    count--;
+    countLabel.textContent = count;
+}
+
+resetBtn.onclick = function(){
+    count = 0;
+    countLabel.textContent = count;
+}
+
 /* -----------------------------------CONSTANTS
 // const = a variable that can't be changed
-
-*/
 
 // Constants are normally titled in all-caps, unless they are reference types, like Strings
 const PI = 3.14159;
@@ -24,6 +45,8 @@ document.getElementById("mySubmit").onclick = function(){
     circumference = 2 * PI * radius;
     document.getElementById("myH3").textContent = circumference + "cm";
 };
+
+*/
 
 /* -----------------------------------TYPE CONVERSION
 
