@@ -1,6 +1,40 @@
+/* -----------------------------------STRING SLICING
+*/
+
+/*
+const fullName = "Big Man Blastoise";
+
+// ENDING INDEX IS EXCLUSIVE, SO END ON AN EXTRA INDEX
+/*
+let firstName = fullName.slice(0, 7);
+let lastName = fullName.slice(8);
+
+let firstChar = fullName.slice(0,1);
+// NEGATIVE VALUES COUNT FROM BACK OF STRING TO FRONT
+let lastChar = fullName.slice(-2);
+*/
+/*
+let firstName = fullName.slice(0, fullName.lastIndexOf(" "));
+let lastName = fullName.slice(fullName.indexOf(" ") + 1);
+
+console.log(firstName);
+console.log(lastName);
+console.log(firstChar);
+console.log(lastChar);
+*/
+
+/*
+const email = "BigManBlastoise@bigmenonly.com";
+let username = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@") + 1);
+
+console.log(username);
+console.log(extension);
+*/
+
 /* -----------------------------------STRING METHODS
 */
-let userName = "Blastoise";
+// let userName = "Blastoise";
 
 // console.log(userName.charAt(2));
 
@@ -28,11 +62,11 @@ let userName = "Blastoise";
     }
 */
 
-let phoneNumber = "123-456-7890";
+// let phoneNumber = "123-456-7890";
 // phoneNumber = phoneNumber.replaceAll("-", " ");
 // phoneNumber = phoneNumber.padStart(15, "0");
 // phoneNumber = phoneNumber.padEnd(15, "0");
-console.log(phoneNumber);
+// console.log(phoneNumber);
 
 /* -----------------------------------SWITCHES
 */
