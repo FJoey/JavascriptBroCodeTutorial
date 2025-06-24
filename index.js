@@ -1,7 +1,33 @@
+/* -----------------------------------LOGICAL OPERATORS
+ */
+
+// const temp = 20;
+/*if (temp > 0 && temp <= 30){
+    console.log("The weather is GOOD");
+}*/
+
+/*
+if(temp <= 0 || temp > 30){
+    console.log("The weather is BAD");
+}
+else {
+    console.log("The weather is GOOD");
+}
+*/
+/*
+const isSunny = true;
+
+if(!isSunny){
+    console.log("It is Cloudy");
+} else {
+    console.log("It is Sunny");
+}
+*/
+
 /* -----------------------------------METHOD CHAINING
 */
 
-let userName = window.prompt("Enter your username: ");
+// let userName = window.prompt("Enter your username: ");
 
 // ------------------------- NO METHOD CHAINING
 
@@ -19,10 +45,12 @@ console.log(userName);
 */
 // ------------------------- METHOD CHAINING
 
+/*
 userName = userName.trim().charAt(0).toUpperCase() 
             + userName.trim().slice(1).toLowerCase();
 
 console.log(userName);
+*/
 
 /* -----------------------------------STRING SLICING
 */
